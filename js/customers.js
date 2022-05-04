@@ -1,6 +1,6 @@
 'use strict'
 
-const url = 'https://testeleonid.herokuapp.com/clientes'
+const url = 'http://localhost/Jennifer/backend-php/clientes'
 
 // Consumindo a api
 const readCustomers = async() => {

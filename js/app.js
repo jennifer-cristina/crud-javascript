@@ -37,7 +37,6 @@ const updateTable = async () => {
 const saveCustomers = async () => {
     // Criar um json com as informações do Cliente
     const customers = {
-        "id": "",
         "nome": document.getElementById('nome').value,
         "email": document.getElementById('email').value,
         "celular": document.getElementById('celular').value,
